@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="adorisjesenia.mx.edu.utng.templatemethod.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculando ingreso mensual"
+        android:textSize="8pt"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Subordinado"
+        android:textSize="6pt"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_nombre"
+        android:inputType=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario Base"
+        android:textSize="6pt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_salario"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de vendedor"
+        android:textSize="7pt"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rB1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Constitucional "
+            android:textSize="6pt"/>
+
+
+
+        <RadioButton
+            android:id="@+id/rB2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambaceo"
+            android:textSize="6pt"/>
+
+
+            </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_continuar"
+        android:text="@string/continuar"
+        android:onClick="continuar"
+        android:textSize="7pt"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
